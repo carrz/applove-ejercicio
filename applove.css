@@ -1,0 +1,304 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+.bold{
+  font-weight: bold;
+}
+.center{
+  text-align: center;
+}
+.no-margin{
+  margin: 0;
+}
+header{
+  height: 100px;
+  background-color: #FFF;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  padding: 30px;
+  z-index: 10;
+}
+.service{
+  margin-left: 65px;
+}
+.work{
+  margin-left: 35px;
+}
+.team{
+  margin-left: 35px;
+}
+#logo{
+  width: 70px;
+  margin-left: 1040px;
+  margin-top: -41px;
+}
+.primera-seccion{
+  background-image: url(bg-home.jpg);
+  width: 100%;
+  height: 519px;
+  position: absolute;
+  top: 80px;
+  color: #FFF;
+}
+.weare{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.you{
+  margin-top: 80px;
+}
+.view-button{
+  margin-top: 50px;
+  background-color: #37DF9B;
+  width: 170px;
+  height: 50px;
+  outline: 1px solid #576472;
+  color: #FFF;
+  display: inline-block;
+  padding: 14px;
+}
+.segunda-seccion{
+  background-color: #F57266;
+  height: 720px;
+  width: 100%;
+  position: absolute;
+  top: 599px;
+  color: #FFF;
+}
+.h-service{
+  font-size: 35px;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+.circle-img{
+  width: 200px;
+  display: inline-block;
+}
+.h5-margin{
+  margin-bottom: 0;
+}
+.img-1{
+  margin-top: 65px;
+  margin-left: 170px;
+}
+.img-2{
+  top: 305px;
+  left: 520px;
+  position: absolute;
+}
+.img-3{
+  top: 305px;
+  left: 880px;
+  position: absolute;
+}
+.text-img-1{
+  margin-left: 140px;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+}
+.text-img-2{
+  margin-left: 500px;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  top: 505px;
+  position: absolute;
+}
+.text-img-3{
+  margin-left: 850px;
+  text-align: center;
+  height: 100px;
+  width: 250px;
+  top: 505px;
+  position: absolute;
+}
+.tercera-seccion{
+  background-color: #FFF;
+  height: 1200px;
+  width: 100%;
+  position: absolute;
+  top: 1319px;
+  color: #000;
+}
+.h-work{
+  font-size: 40px;
+  margin-top: 75px;
+  margin-bottom: 30px;
+}
+.pc-img{
+  width: 75%;
+  display:block;
+  margin:auto;
+  margin-top: 50px;
+}
+.cuarta-seccion{
+  background-color: #FFF;
+  height: 1600px;
+  width: 100%;
+  position: absolute;
+  top: 2519px;
+  color: #000;
+}
+.prototipo-img{
+  width: 300px;
+  margin-left: 60px;
+}
+.primera-fila{
+  margin-top: 20px;
+  margin-left: 60px;
+}
+.segunda-fila{
+  margin-top: 110px;
+  margin-left: 60px;
+}
+.tercera-fila{
+  margin-top: 110px;
+  margin-left: 60px;
+}
+.cuarta-fila{
+  margin-top: 110px;
+  margin-left: 60px;
+}
+.name-1{
+  position: absolute;
+  margin-left: 110px;
+  font-size: 16px;
+}
+.name-2{
+  position: absolute;
+  margin-left: 480px;
+  font-size: 16px;
+}
+.name-3{
+  position: absolute;
+  margin-left: 840px;
+  font-size: 16px;
+}
+.name-4{
+  position: absolute;
+  margin-left: 110px;
+  font-size: 16px;
+}
+.name-5{
+  position: absolute;
+  margin-left: 480px;
+  font-size: 16px;
+}
+.name-6{
+  position: absolute;
+  margin-left: 840px;
+  font-size: 16px;
+}
+.name-7{
+  position: absolute;
+  margin-left: 110px;
+  font-size: 16px;
+}
+.name-8{
+  position: absolute;
+  margin-left: 480px;
+  font-size: 16px;
+}
+.name-9{
+  position: absolute;
+  margin-left: 840px;
+  font-size: 16px;
+}
+.name-10{
+  position: absolute;
+  margin-left: 110px;
+  font-size: 16px;
+}
+.name-11{
+  position: absolute;
+  margin-left: 480px;
+  font-size: 16px;
+}
+.name-12{
+  position: absolute;
+  margin-left: 840px;
+  font-size: 16px;
+}
+footer{
+  position: absolute;
+  display: block;
+  height: 80px;
+  background-color: #3B3B49;
+  text-align: center;
+  top: 4119px;
+  right: 0;
+  left: 0;
+  color: #FFF;
+}
+.copy-text{
+  margin-top: 30px;
+}
